@@ -1,0 +1,40 @@
+@media screen and (max-width: 900px){
+    header{
+        height: 12vh;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }   
+    .btn{
+        overflow: hidden;
+    }
+    nav ul li{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .card{
+        min-width: 100vw;
+        overflow: scroll;
+    }
+    .card-item1{
+        min-width: 160px;
+        margin: 0 12px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    nav ul{
+        max-width: 100vw;
+    }
+    .search input{
+        width: 202px;
+    }
+}
